@@ -1,0 +1,141 @@
+.profile-box{
+    height: 50vh;
+    width: 37%;
+    background-color: rgb(251, 251, 252);
+    border-radius: 25px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    /* overflow-y: hidden; */
+}
+.form-box {
+    background-color: rgb(243, 249, 249);
+    text-align: left;
+    height: 300px;
+    width: 400px;
+    margin-left: 20%;
+    margin-top:3%;
+    display: flex;
+    flex-direction: column;
+}
+.form-box form{
+    background-color: rgb(238, 246, 246);
+}
+.form-box input {
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    font-size: 1.1rem;
+    word-spacing: 10%;
+
+}
+
+.form input::placeholder {
+    font-size: 18px;
+    font-family: "poppins" sans-serif;
+}
+.wi-full {
+    margin-top: 10%;
+    width: 800px;
+    background-color: rgb(129, 213, 236);
+    word-spacing: 20%;
+    color: black;
+}
+.text-white{
+    background-color: rgb(53, 10, 224);
+    width: 30%;
+    color: white;
+}
+/* .form .nameField {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: relative;
+
+}
+.form .emailField {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: relative;
+    padding-top: 1%;
+}
+.form .phoneField {
+    font-size: 1.1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    position: relative;
+    padding-top: 1%;
+
+}
+.form input {
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+
+}
+
+.form input::placeholder {
+    font-size: 18px;
+    font-family: "poppins" sans-serif;
+}
+.form #btn {
+    width: 30%;
+    padding: 10px;
+    background-color: green;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: 35%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+
+.form #btn:hover {
+    background-color: #094aee;
+    color: white;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10%;
+    margin-right: 35%;
+}
+.btn1{
+    width: 30%;
+    padding: 10px;
+    background-color: rgb(39, 25, 236);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.btn2{
+    width: 30%;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+} */
