@@ -40,6 +40,7 @@
     background-color: rgb(129, 213, 236);
     word-spacing: 20%;
     color: black;
+    margin-left: -13%;
 }
 .update{
     margin-left: 8%;
@@ -60,72 +61,33 @@ span {
     width: 30%;
     color: white;
 }
-@media only screen and (max-width: 850px) and (min-width: 450px){
-        .profile-box{
-        height: 40vh;
-        width: 70%;
-        background-color: rgb(249, 249, 251);
-        border-radius: 25px;
-        display:inline-block;
-        justify-content: center;
-        align-items: center;
+@media  (max-width:950px) and (min-width:555px)  {
+    .profile-box{
+        height: 44vh;
+    width: 50%;
+    background-color: rgb(251, 251, 252);
+    border-radius: 25px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
         /* overflow-y: hidden; */
     }
-    .navbar button{
-        width: 25%;
-        font-size: 19px;
-    }
     .form-box {
-        background-color: rgb(243, 249, 249);
-        text-align: left;
-        height: 300px;
-        width: 400px;
-        margin-left: 8%;
-        margin-top:3%;
-        display: flex;
-        flex-direction: column;
-    }
-    .form-box form{
-        background-color: rgb(238, 246, 246);
-    }
-    .form-box input {
-        width: 100%;
-        height: 30px;
-        padding: 20px;
-        font-size: 1.1rem;
-        word-spacing: 10%;
-    
-    }
-    
-    .form input::placeholder {
-        font-size: 18px;
-        font-family: "poppins" sans-serif;
-    }
-    .update{
-        margin-left: 8%;
-        background-color:  rgb(53, 10, 224);
-        width: 30%;
-        color: white;
-    }
+    background-color: rgb(243, 249, 249);
+    text-align: left;
+    height: 300px;
+    width: 400px;
+    margin-left: 4%;
+    margin-top:3%;
+    display: flex;
+    flex-direction: column;
+}
     .wi-full {
-        margin-top: 10%;
+        margin-top: 25%;
         width: 600px;
         background-color: rgb(129, 213, 236);
         word-spacing: 20%;
         color: black;
-        margin-left: -22%;
+        margin-left: -17%;
     }
-    .text-white{
-        background-color: rgb(53, 10, 224);
-        width: 30%;
-        color: white;
-        margin-left:5%;
-
-    }
-    #emailText {
-        color: #e74c3c;
-        font-size: 14px;
-        margin-top: 5px;
-        display: block;
-      }
-  }
+}
