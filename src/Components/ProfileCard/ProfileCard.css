@@ -1,93 +1,123 @@
-.profile-box{
-    height: 55vh;
-    width: 37%;
+.profile-box {
+    height: auto; /* Allow height to adjust based on content */
+    width: 90%; /* Use a percentage for better responsiveness */
+    max-width: 700px; /* Set a max width */
     background-color: rgb(251, 251, 252);
     border-radius: 25px;
-    display:inline-block;
-    justify-content: center;
-    align-items: center;
-    /* overflow-y: hidden; */
+    display: flex; /* Use flex for centering */
+    flex-direction: column; /* Column direction for stacking */
+    margin: 2rem auto; /* Centering the box */
+    padding: 2rem; /* Padding for spacing */
 }
+
 .form-box {
-    background-color: rgb(243, 249, 249);
     text-align: left;
-    height: 300px;
-    width: 400px;
-    margin-left: 20%;
-    margin-top:3%;
+    width: 100%; /* Full width of the profile box */
     display: flex;
     flex-direction: column;
 }
-.form-box form{
-    background-color: rgb(238, 246, 246);
-}
+
 .form-box input {
     width: 100%;
-    height: 30px;
-    padding: 20px;
-    font-size: 1.1rem;
-    word-spacing: 10%;
-
+    height: 40px; /* Increased height for better touch targets */
+    padding: 10px; /* Adjust padding */
+    font-size: 1rem; /* Adjust font size for better scaling */
 }
 
-.form input::placeholder {
-    font-size: 18px;
-    font-family: "poppins" sans-serif;
-}
 .wi-full {
-    margin-top: 12%;
-    width: 800px;
+    margin-top: 2rem; /* Adjust margin */
+    width: 100%; /* Full width */
+    max-width: 800px; /* Set a max width */
     background-color: rgb(129, 213, 236);
-    word-spacing: 20%;
     color: black;
-    margin-left: -13%;
 }
-.update{
-    margin-left: 8%;
-    background-color:  rgb(53, 10, 224);
-    width: 30%;
+
+.update {
+    margin-left: 0; /* Center the button */
+    background-color: rgb(53, 10, 224);
+    width: 100%; /* Full width for better responsiveness */
     color: white;
+    padding: 10px; /* Add padding for better touch targets */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor for better UX */
 }
+
 span {
     color: #e74c3c;
-    font-size: 16px;
+    font-size: 14px; /* Adjusted font size */
     display: block;
     font-weight: 500;
-    transition-timing-function: calc(1s);
-  }
-  
-.text-white{
-    background-color: rgb(53, 10, 224);
-    width: 30%;
-    color: white;
+    margin-top: 0.5rem; /* Space between error messages and inputs */
 }
-@media  (max-width:950px) and (min-width:555px)  {
-    .profile-box{
-        height: 44vh;
-    width: 50%;
-    background-color: rgb(251, 251, 252);
-    border-radius: 25px;
-    display:inline-block;
-    justify-content: center;
-    align-items: center;
-        /* overflow-y: hidden; */
+
+@media (max-width: 950px) {
+    .profile-box {
+        width: 80%; /* Adjust width for smaller screens */
     }
-    .form-box {
-    background-color: rgb(243, 249, 249);
-    text-align: left;
-    height: 300px;
-    width: 400px;
-    margin-left: 4%;
-    margin-top:3%;
-    display: flex;
-    flex-direction: column;
-}
+
     .wi-full {
         margin-top: 25%;
-        width: 600px;
-        background-color: rgb(129, 213, 236);
-        word-spacing: 20%;
-        color: black;
-        margin-left: -17%;
+        width: 100%; /* Full width */
     }
+}
+
+@media (max-width: 555px) {
+    .profile-box {
+        width: 95%; /* Use even more width on small screens */
+    }
+
+    .form-box {
+        margin: 0; /* Reset margin for small screens */
+    }
+
+    .wi-full {
+        width: 100%; /* Full width for small screens */
+    }
+}
+.table-responsive {
+    overflow-x: auto; /* Enables horizontal scrolling */
+    margin-top: 1rem; /* Space above the table */
+  }
+  
+  .text-center {
+    width: 100%; /* Make the table take full width */
+    border-collapse: collapse; /* Merge borders */
+  }
+  
+  .text-center th, .text-center td {
+    padding: 1rem; /* Padding for table cells */
+    border: 1px solid #ddd; /* Border for table cells */
+  }
+  
+  .text-center th {
+    background-color: #f4f4f4; /* Light background for header */
+  }
+  
+  .text-center td {
+    text-align: left; /* Left align text in cells */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .text-center th, .text-center td {
+      font-size: 0.8rem; /* Smaller font on small screens */
+      padding: 0.5rem; /* Reduced padding */
+    }
+  }
+  .editTrash{
+    display: contents
+  }
+
+  .icon-edit {
+    color: blue;
+}
+
+.icon-delete {
+    color: red;
+}
+
+button{
+    border: none;
+    background: transparent;
+
 }
